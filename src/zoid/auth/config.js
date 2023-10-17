@@ -12,3 +12,7 @@ export function getRedirectUrl(): string {
 export function getMerchantDomain(): string {
   return window.location.hostname;
 }
+
+export function getOrigin(): string {
+  return window.location.origin;
+}
